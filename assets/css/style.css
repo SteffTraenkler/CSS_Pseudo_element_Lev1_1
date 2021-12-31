@@ -40,7 +40,8 @@ p:first-of-type::first-line{
 p:not(:first-of-type)::first-letter{
     color: #D50000;
     font-size: 1.5em;
-}
+} 
+/*oder: p:nth-of-type(1n+2)::first-letter{etc}*/
 
 p:not(:first-of-type)::first-line{
     color: green;
